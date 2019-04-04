@@ -1,0 +1,15 @@
+<ion-content >
+	<div class="body">
+		<div class="ion-padding">
+			<div class="box">
+				<div class="box-internal">
+					<img src="../../assets/images/image.jpg" />
+					<ion-input placeholder="Digite o e-mail" [(ngModel)]="email"  type="email" clearInput ></ion-input>
+					<ion-input placeholder="Digite a senha" [(ngModel)]="password"  type="password" clearInput ></ion-input>
+					<ion-button shape="round" (click)="login()"   fill="outline" color="dark">Logar</ion-button>
+					<a class="button-cadastrar" routerLink="/cadastrar-page">Cadastrar</a>
+				</div>
+			</div>
+		</div>
+  </div>
+</ion-content>
