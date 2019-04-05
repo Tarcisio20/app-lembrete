@@ -5,7 +5,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'primary-page', loadChildren: './primary-page/primary-page.module#PrimaryPagePageModule' },
-  { path: 'cadastrar-page', loadChildren: './cadastrar-page/cadastrar-page.module#CadastrarPagePageModule' },
+  { path: 'cadastro-page', loadChildren: './cadastro-page/cadastro-page.module#CadastroPagePageModule' },
 ];
 
 

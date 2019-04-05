@@ -34,7 +34,7 @@ export class HomePage {
         this.router.navigate(['/primary-page']);
       }else{
         const toast = await this.toastCtrl.create({
-          message: 'Senha não inválida',
+          message: 'Senha inválida',
           position: 'top',
           duration: 2000
         });
@@ -44,7 +44,7 @@ export class HomePage {
     }else{
 
       const toast = await this.toastCtrl.create({
-        message: 'E-mail não inválida',
+        message: 'E-mail inválido',
         position: 'top',
         duration: 2000
       });
