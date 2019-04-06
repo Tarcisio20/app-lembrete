@@ -29,6 +29,10 @@ ion-item {
   --ion-color-base: transparent !important;
 }
 
-ion-input:focus ~ ion-item{
-  --border-bottom-color: #000 !important; 
+ion-input{
+  --border-width: #000 !important; 
+}
+
+.margin-top-20{
+  margin-top: 20px;
 }
