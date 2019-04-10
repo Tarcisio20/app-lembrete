@@ -16,3 +16,12 @@ ion-title{
     height: 100%;
     padding: 10px;
   }
+
+  ion-toggle.toggle{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+  }
+ .ion-touched{
+   background: #7044ff;
+ }
