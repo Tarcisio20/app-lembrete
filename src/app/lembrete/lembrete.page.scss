@@ -17,11 +17,17 @@ ion-title{
     padding: 10px;
   }
 
+  .box{
+      padding: 10px;
+  }
+
   ion-toggle.toggle{
     position: absolute;
     right: 10px;
     top: 50%;
   }
- .ion-touched{
+
+ .toggle-icon{
    background: #7044ff;
  }
+

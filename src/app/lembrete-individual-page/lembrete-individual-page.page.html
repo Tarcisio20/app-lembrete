@@ -1,14 +1,13 @@
 <ion-header>
   <ion-toolbar color="tertiary">
-      <ion-button routerLink="/primary-page" fill="clear" class="icon-bar">
+      <ion-button routerLink="/lembrete" fill="clear" class="icon-bar">
         <ion-icon  name="arrow-back"></ion-icon>
     </ion-button>
-    <ion-title>Criar Lembrete</ion-title>
+    <ion-title>Seu Lembrete</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-	<div class="box">
 	<ion-item>
   		<ion-label position="floating">Nome do lembrete</ion-label>
   		<ion-input></ion-input>
@@ -29,7 +28,5 @@
 		<ion-toggle style="position: absolute; right: 10px;
 		top: 30%" class="toggle" [(ngModel)]="pepperoni"></ion-toggle>
 	  </ion-item>
-		<ion-button shape="round"  expand="block"   color="tertiary" class="button-save">Salvar</ion-button>
-	</div>
+	  <ion-button shape="round"  expand="block"   color="tertiary" class="button-save">Salvar</ion-button>
 </ion-content>
-
